@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DATA ENGINEERING · SQL TASKS</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container top-left">
+        <h2>ERD</h2>
+        <img src="images/model.png" alt="ERD of the DB">
+    </div>
+    <div class="container bottom-left">
+        <h2>DATA</h2>
+        <img src="images/tables.png" alt="DB Tables with the data">
+    </div>
+
+    <div class="container full-right">
+        <div class="right-side">
+            <h3>"JOIN" TASK</h3>
+            <ul>
+                <li>get the number of the actors for the each movie, include also the movies without the actors</li> 
+                <li>provide <strong>movie ID</strong>, <strong></strong>title</strong> and <strong>count of actors</strong> with alias <strong>'cast'</strong></li> 
+                <li>order by cast members from most to least and by movie ID from smallest to largest</li>
+            </ul>
+        </div>
+
+        <div class="right-side">
+            <textarea placeholder="Your solution goes here..." rows="5"></textarea>
+        </div>
+
+        <div class="divider"></div>
+
+        <div class="right-side"> 
+            <h3>"SUBQUERY" TASK</h3>
+            <ul>
+                <li>get movies <strong>title</strong>, <strong>year</strong> and <strong>duration</strong> for the movies that are <strong>longer than average length</strong> of all the movies in the database</li> 
+                <li>sort them by movie duration from longest to shortest and by title from alphabetically</li> 
+            </ul>
+        </div>
+
+        <div class="right-side">
+            <textarea placeholder="Your solution goes here..." rows="5"></textarea>
+        </div>
+    </div>
+</body>
+</html>
